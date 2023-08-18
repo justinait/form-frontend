@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-image: url('https://www.undp.org/sites/g/files/zskgke326/files/migration/gt/60dadf06cc663fba36268ef77c0a48184b4497f73eca9dc0abbe4734930bda6b.jpg');
+}
+* {
+  font-size: 14px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  height: unset;
+  width: 100vw;
+  object-fit: cover;
+}
+
+@supports(object-fit: cover){
+  .App{
+    object-fit: cover;
+    object-position: center center;
+  }
+}

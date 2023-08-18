@@ -1,0 +1,22 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: grey;
+    height: calc(100% - 15%);
+    justify-content: space-evenly;
+}
+
+.form {
+    height: 45vh;
+    border-radius: 10px;
+    background: #f0f8ff91;
+    width: 40vw;
+    margin: auto;
+}
+
+input {
+    background: transparent;
+    border-radius: 10px;
+    color: grey;
+}
